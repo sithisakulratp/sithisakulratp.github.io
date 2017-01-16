@@ -1,6 +1,5 @@
-## Welcome to My GitHub Page
-
-You can use the [editor on GitHub](https://github.com/sithisakulratp/sithisakulratp.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# CSCI 260 - Course Blog
+## CSCI 260 Software Engineering Spring 2017
 
 ## What Software Engineering means to me?
 
@@ -12,7 +11,7 @@ designing certain software, while also using logic in the process.
 What about you? What does it mean to you?
 ```
 
-# Pragmatic Programmer
+## Pragmatic Programmer
 
 ## Chapter 1
 ```
