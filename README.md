@@ -11,3 +11,10 @@ designing certain software, while also using logic in the process.
 
 What about you? What does it mean to you?
 ```
+
+# Pragmatic Programmer
+
+## Chapter 1
+```
+What I found important and interesting in this chapter is that
+```
