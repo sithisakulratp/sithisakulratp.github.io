@@ -5,7 +5,9 @@ You can use the [editor on GitHub](https://github.com/sithisakulratp/sithisakulr
 ## What Software Engineering means to me?
 
 ```markdown
-Software Engineering for me is the art and science of designing, building, and maintaing software. It means being creative in designing certain software, while also using logic in the process.
+Software Engineering for me is the art and science of designing, 
+building, and maintaing software. It means being creative in 
+designing certain software, while also using logic in the process.
 
 What about you? What does it mean to you?
 ```
