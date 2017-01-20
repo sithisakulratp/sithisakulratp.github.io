@@ -42,3 +42,8 @@ communicating with the audience early by showing them your drafts on what you ar
 or planning to do, so you can get feedback from them early. That way, you can fix things
 early in the process.
 ```
+
+### Chapter 2
+```markdown
+What I found interesting and important in this chapter is
+```
