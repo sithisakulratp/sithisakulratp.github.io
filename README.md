@@ -23,7 +23,7 @@ that you are going to commit to. It is important to make a call based on
 your own ethics and judgment. If the work does not seem to match your personal
 judgment, do NOT take the responsibility because that means you are also
 responsible of the outcome. If you take the responsibility and the outcome
-is not what to be expected, do not take make excuses, provide options on
+is not what to be expected, do not make excuses, provide options on
 what can make it work or better. The chapter also talks about the disorder 
 of the system, or the disorganized code. It's interesting how the authors compare this
 to "broken windows." What interests me even more is the stone soup story. 
@@ -39,7 +39,7 @@ For the communication part, I think it is the most critical part of software eng
 because you first need to know what your audience needs or interested in before
 planning out what to say or to be presented. Then, once you are already in process,
 communicating with the audience early by showing them your drafts on what you are doing
-or planning to do, so you can get feedback from them early. That way, you can fix things
+or planning to do helps you to get feedback from them early. That way, you can fix things
 early in the process.
 ```
 
