@@ -45,5 +45,32 @@ early in the process.
 
 ### Chapter 2
 ```markdown
-What I found interesting and important in this chapter is
+Chapter 2 is quite a long chapter. It starts with a topic of the bad of duplication and the 
+important of documentation. Documenting your code not only tells other people what your program 
+does, it also helps you to recognize your own code. Sometimes, after you finished a project in 
+a while, you tend to forget what you have coded, or the purpose of the project. Also, having 
+duplicate codes is bad because not only is it difficult to make a change without ruining the whole 
+project, it is also a waste of time to go back and change the same code in every method. This is 
+why decoupling is encouraged. The book related the term Orthogonality to the independent or 
+decoupling of each class of the code. There are many benefits to using Orthonality. The major 
+two are gaining productivity and reducing risk. As mentioned before, having a method that can be 
+reused over and over again can save a lot of time. All changes are localized, so the development 
+time and testing time are reduced. Having these in mind, applying them to the real work can be 
+very effective. Using the same analogy on project teams, we can divide the team into small groups 
+and assign each group a specific task, so that we all do not get confused of what to do. Having 
+this kind of organization not only reduces risk of making change of something in the project, 
+it also reduces time of going about to discuss the change. One topic that I found interesting 
+would be the tracer bullets analogy. Applying the approach of aimming the target before firing 
+can be very helpful anf effective to a lot of developers. With the approach, developers can have 
+a better feel for their progress because their users are able to see their progress. Each and every 
+iteration the developers commit, the users can go ahead and see whether it is what they want. 
+This, I think, is also part of commnication. Although it is not a direct one, but the result 
+is about the same. Being able to see what the developer is doing, users can make a comment and 
+suggest or require a change to the program. Getting feedback early is always a good thing.
+The last topic I found very important in this chapter is the estimation. Whether it be estimating 
+a certain value or a period of time to get something done. Giving an estimation of how long you 
+will be working on your project can be critical to not just you as a developer, but also to the 
+users that wait for their product to be finished. Another important aspect of the estimation is 
+it keeps you organized and not lose track of what you are doing. Making a schedule of what needs 
+to be done in estimately how many days can be very helpful with those lacking time management.
 ```
