@@ -74,3 +74,8 @@ users that wait for their product to be finished. Another important aspect of th
 it keeps you organized and not lose track of what you are doing. Making a schedule of what needs 
 to be done in estimately how many days can be very helpful with those lacking time management.
 ```
+
+### Chapter 3
+``` markdown
+What I found interesting in this chapter is that
+```
