@@ -77,5 +77,22 @@ to be done in estimately how many days can be very helpful with those lacking ti
 
 ### Chapter 3
 ``` markdown
-What I found interesting in this chapter is that
+What I found interesting in this chapter
+```
+
+### The Mythical Man-Month: Chapter 2
+``` markdown
+In chapter 2 of the Mythical Man-Month, the author talks about how most of the software projects have gone awry
+for lack of calender time more thna for all other causes combined. He first mentioned the optimism that most of 
+the young programmers have. He said that they always have the same thought of how debugging and testing their
+softwares won't take too long or how the bug they found is the last bug, and how "all will go well."
+With this in mind, he goes on to talk about how the men and the months are interchangable. After going over
+the systems tests, the gutless estimating, an the regenerative disaster, it turns out that adding more manpower
+to a late software project actually makes the project finished later (Brooks's Law), making the estimated schedule even worse.
+In one of the discussion, it makes sense how adding more manpower does not really make the project finished earlier
+or at least on time. The example talks about the 12 man-month project - assigning 3 men for 4 months to finish a project -
+assuming that the task for the first month actually takes two, adding 2 more men to the team does not make the project
+finished earlier than having 3 men to continue work on the project since the 2 new men will need traning, which might take
+up to a month. Instead of giving the 2 new men the traning, the 3 men can continue working on the project and can
+finish it by the same time as having two more men added to the team.
 ```
