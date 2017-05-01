@@ -96,3 +96,8 @@ finished earlier than having 3 men to continue work on the project since the 2 n
 up to a month. Instead of giving the 2 new men the traning, the 3 men can continue working on the project and can
 finish it by the same time as having two more men added to the team.
 ```
+
+### Chapter 4
+``` markdown
+Chapter 4 talks about how pragmatic programmers turn depressing situations into advantage, and how they write codes to defend themselves, not other programmers. They first talk about design by contract. 
+```
