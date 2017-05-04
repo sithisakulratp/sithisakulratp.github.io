@@ -143,3 +143,55 @@ Chapter 5 first talks how the world changes every day, so our code must be flexi
    are created by the fact that an object with certain propoerties appears in the storage (written by some other
    participants). Often combines with rules engines to coordinate workflows.
 ```
+
+### Chapter 6
+```markdown
+In the craft of programming is necessary to have an active participation in the possible resolution of the problems,
+if we code mechanically, we will produce ugly, inscable and bad performed system.
+    - Programming by coincidence: to make sure that your program works tomorrow, you must thoroughly undersand 
+    why it works today. If you don't, then your code may be slow, confusing, only partially correct, error-prone
+    to change, and prone to collapse if the objects change that it is calling. Know what you are relying on.
+    Don't rely on anything you don't need to rely on.
+    - Algorithm speed: the O-notation and runtime complexity classes, complexity estimation rules-of-thumb,
+    estimate, then test your estimates. Be pragmatic about algorithm choice.
+    - Refactoring: building SW is more like gardening than like construction; a constant process of monitoring
+    and care. Regularly refactor your SW to push back duplications, non-orthogonal design, outdates knowledge,
+    and performance degradation. Refaction early, refactor again, refactor often, and avoid telling your clients
+    you do it. Make small steps and do not change functionality at the same time. Have automated tests to
+    safeguard your changes.
+    - Code that's easy to test: write automated tests for each module that test against its contract (self-testing
+    code). Use assertions in the code. Test lowest-level modeules first and higher-level modules later (to simplify
+    defect localization). Co-design code and its tests. Store the test code close to the module code. Tests also
+    serve as documentation. Use a test harnessly. Do not throw away the ad-hoc tests you invented during debugging.
+    Make sure you can test your software during production, too. Log files and semi-official debugging console
+    windows or built-in webservers are helpful. Establish a standardized test culture.
+    - Evil wizards: if you use a Code Generation Wizard, make sure you understand the code produced, because it
+    will be interwoven with your application.
+```
+
+### Chapter 7
+```markdown
+If before we start the project, we don't know if we can carry with the problems that the project will bring us, 
+it's time to be honest and save some money and time to our sponsors, but if we decide to take the risk, then 
+it's time to know how to estimate.
+    - The requirements pit: "Requirements rarely lie on the surface. Normally, they're buried deep beneath layers
+    of assumptions, misconceptions, and politics." Identify policies (e.g. access privilege rules) that come as
+    part of requirements and expect them to be volatile; make then configurable. Identify user interface details
+    that come as part of requirements and initially treat them as manner of speaking only. Understand and document
+    why users want certain things, not just what they want. To understand the domain, become a user yourself for
+    a week - it helps build trust and rapport, too. To document requirements, use a suitable use case format.
+    Do not overspecify, stick to what's actually needed. Track all requirements changes to avoid creeping featurism.
+    Maintain a glossary and stick to those terms. Use hypertext and internally publish the requirements.
+    - Solving impossible puzzles: the key to coping with seemingly impossible problems is discriminating real 
+    constraints from perceived ones. The question is "are you even solving the right problem?" Then, enumerate all
+    conceivable routes and carefully explain for each why it cannot work. Find you weak arguments: there are your 
+    possibilities.
+    - Not until you're ready: don't start as long as you have doubts, but start when you are ready. How to discriminate
+    real doubts from mere procrastination? Prototyping will often reveal the problrm behind your doubts or quickly
+    get you ready.
+    - The specification trap: don't write highyly detailed specifications.
+    - Circles and arrows: don't become a slave to formalized methods. Beware of requirements specification notations
+    your end users do not understand, beware of developer overspecialiation, beware of methods that restric the 
+    flexibility of your designs. Never underestimate the learning cost for a new method. Each method should be 
+    a tool in your toolbox, selected and used when approproiate and its use constantly refined.
+```
