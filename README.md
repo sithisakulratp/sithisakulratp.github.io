@@ -99,5 +99,47 @@ finish it by the same time as having two more men added to the team.
 
 ### Chapter 4
 ``` markdown
-Chapter 4 talks about how pragmatic programmers turn depressing situations into advantage, and how they write codes to defend themselves, not other programmers. They first talk about design by contract. 
+Chapter 4 talks about how pragmatic programmers turn depressing situations into advantage, and how they 
+write codes to defend themselves, not other programmers. They first talk about design by contract and 
+how our develop have to be like a business contract. They are required to do what their requirements specify,
+but anything else. And the control classes only have to require that, not more than the methods it is for.
+The next focus is about dead programs tell no lies. Sometimes we have system errors, like memory performance
+or maybe a problem that spouse it will never happn, then you don't only catch it in an exception and let it pass
+to the final testing, you can use exceptions to find what the problem is but not to ignore the problem.
+At least a dead program is less dangerous than a sick one. In the assertive programming section, when we find
+an error that suppose it will never happen, in some programming languges we have the ASSERT finction. It is
+only for this exceptional errors, not for every kind, and if our language does not have this function, we likely
+have to create one. The next section is when to use exceptions. It mainly talks about proving that if the program
+runs correctly when all exceptions were removed, then you are making a good use of the exceptions. It is
+for exceptional errors in the system, not for every kind. In the how to balance resources, it follows a few
+simple rules: The function that allocate the resource needs to be the functions that deallocate it too.
+If you allocate some resources to your code, deallocate it in inverse order will avoid some conflicts.
+if you will allocate the same resources in many places, then deallocate it in the same order. The same rules
+can be applied at constructors and destructors of an object, where dynamic memory is allocated by nodes.
+Like pragmatic programmers, we always have to check for overload our resources like memory, CPU, data buses
+and so on, there exists a lot of programs that do this for us, and if it is difficult to deallocate resources,
+we can create a stack to determine when the resource is free to be deallocate.
+```
+
+### Chapter 5
+```markdown
+Chapter 5 first talks how the world changes every day, so our code must be flexible, too. 
+   - Decoupling and the Law of Demeter: couple your classes to no more other classes than reasonably necessary:
+   your instance variables, method arguments, and new local objects (the law of demeter). Have those objects
+   perform a complete service for you rather than giving you an object with which you perform the service.
+   This will require many delegation-only methods, though.
+   - Metaprogramming: provide many configuration option to avoid change programming. Put abstractions in code 
+   and details in metadata. If you drive this far enough, you may even be able to implement different systems
+   using the same application engine but just with different metadata. Business rules and workflows are good
+   candidates for business data. Great applications can change then even without requiring a restart.
+   - Temporal coupling: design for maximal concurrency, avoid introduce unneeded ordering constraints on steps.
+   This may help your design quality too, for example, because you may ask yourself why that global variable
+   that you now need to lock exists at all.
+   - Events and views: event-based control is a good decoupling mechanism, for example, in a publish/subscribe
+   structure. In particular, separate views from models, e.g. in a model-view-controller (MVC) structure, whether
+   in the context of GUIs or elsewhere. You can stack them: one structure's view becomes the next, higer structure's view.
+   - Blackboards: an even stronger form of decoupling, where only data structures are shared but no call coupling
+   is explicit is a blackboard storage (e.g. JavaSpace). Asynchronous and possibly transactional, were events that
+   are created by the fact that an object with certain propoerties appears in the storage (written by some other
+   participants). Often combines with rules engines to coordinate workflows.
 ```
